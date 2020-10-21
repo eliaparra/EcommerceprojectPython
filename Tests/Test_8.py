@@ -14,7 +14,7 @@ class Test_8(BaseTest):
     def setUp(self):
         super(Test_8, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
         self.homePage = HomePage(self.driver)
         self.homePage.click(Locators.HOME_ACCOUNT_BUTTON)
         self.homePage.click(Locators.HOME_MYACCOUNT_LINK)

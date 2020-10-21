@@ -13,7 +13,7 @@ class Test_13(BaseTest):
     def setUp(self):
         super(Test_13, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
         self.loginback = LoginBack(self.driver)
         self.loginback.enter_text(Locators.LOGINBACK_USERNAME_INPUT, TestData.LOGINBACK_USERNAME)
         self.loginback.enter_text(Locators.LOGINBACK_PASSWORD_INPUT, TestData.LOGINBACK_PASSWORD)

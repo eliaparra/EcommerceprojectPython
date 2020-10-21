@@ -1,3 +1,5 @@
+import unittest
+
 from Resources.PO.Home import HomePage
 from Tests.BaseTest import BaseTest
 from Resources.TestData import TestData
@@ -10,7 +12,7 @@ class Test_1(BaseTest):
     def setUp(self):
         super(Test_1, self).setUp()
 
-    def test_1(self):
+    def runTest(self):
         self.homePage = HomePage(self.driver)
 
         self.assertIn(TestData.HOME_TITLE, self.homePage.getTitle())
@@ -23,3 +25,7 @@ class Test_1(BaseTest):
 
     def tearDown(self):
         super(Test_1, self).tearDown()
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -11,7 +11,7 @@ class Test_4(BaseTest):
     def setUp(self):
         super(Test_4, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
 
 
         self.homePage = HomePage(self.driver)

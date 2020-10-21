@@ -11,7 +11,7 @@ class Test_14(BaseTest):
     def setUp(self):
         super(Test_14, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
         global p
         self.home = HomePage(self.driver)
         self.home.click(Locators.HOME_ADVANCE_SEARCH)

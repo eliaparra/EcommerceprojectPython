@@ -15,7 +15,7 @@ class Test_12(BaseTest):
     def setUp(self):
         super(Test_12, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
         self.review = Review(self.driver)
         self.review.enter_text(Locators.REVIEWPAGE_REVIEW_FIELD, TestData.REVIEW_TEXT)
         self.review.enter_text(Locators.REVIEWPAGE_SUMMARY_FIELD, TestData.REVIEW_SUMMARY)

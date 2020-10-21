@@ -11,7 +11,7 @@ class Test_9(BaseTest):
     def setUp(self):
         super(Test_9, self).setUp()
 
-    def test_2(self):
+    def runTest(self):
         self.homePage = HomePage(self.driver)
         self.homePage.click(Locators.HOME_MOBILE_LINK)
 
