@@ -4,10 +4,9 @@ from Resources.PO.Cart import Cart
 from Resources.PO.Checkout import Checkout
 from Resources.PO.Home import HomePage
 from Resources.PO.Login import Login
-from Resources.PO.MyOrders import MyOrders
 from Resources.PO.ThankYouPage import ThankYouPage
-from Tests.BaseTest import BaseTest
 from Resources.TestData import TestData
+from Tests.BaseTest import BaseTest
 
 
 class Test_8(BaseTest):

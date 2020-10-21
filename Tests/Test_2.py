@@ -1,9 +1,8 @@
-from Resources.PO.Home import HomePage
-from Tests.BaseTest import BaseTest
-from Resources.TestData import TestData
 from Resources.Locators import Locators
+from Resources.PO.Home import HomePage
 from Resources.PO.Mobile import Mobile
 from Resources.PO.ProductPage import ProductPage
+from Tests.BaseTest import BaseTest
 
 
 class Test_2(BaseTest):

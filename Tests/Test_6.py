@@ -1,16 +1,13 @@
+from Resources.Locators import Locators
 from Resources.PO.Account import Account
 from Resources.PO.Cart import Cart
 from Resources.PO.Checkout import Checkout
-from Resources.PO.CreateAccount import CreateAccount
 from Resources.PO.Home import HomePage
 from Resources.PO.Login import Login
 from Resources.PO.MyWishlist import MyWishlist
-from Resources.PO.ShareWishlist import ShareWishlist
 from Resources.PO.ThankYouPage import ThankYouPage
-from Resources.PO.Tv import Tv
-from Tests.BaseTest import BaseTest
 from Resources.TestData import TestData
-from Resources.Locators import Locators
+from Tests.BaseTest import BaseTest
 
 
 class Test_6(BaseTest):

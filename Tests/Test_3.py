@@ -1,10 +1,9 @@
+from Resources.Locators import Locators
 from Resources.PO.Cart import Cart
 from Resources.PO.Home import HomePage
-from Tests.BaseTest import BaseTest
-from Resources.TestData import TestData
-from Resources.Locators import Locators
 from Resources.PO.Mobile import Mobile
-from Resources.PO.ProductPage import ProductPage
+from Resources.TestData import TestData
+from Tests.BaseTest import BaseTest
 
 
 class Test_3(BaseTest):

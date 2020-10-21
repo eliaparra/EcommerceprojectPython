@@ -1,19 +1,9 @@
-from Resources.PO.Account import Account
-from Resources.PO.Cart import Cart
-from Resources.PO.Checkout import Checkout
-from Resources.PO.CreateAccount import CreateAccount
-from Resources.PO.CustomersBack import CustomersBack
-from Resources.PO.Home import HomePage
-from Resources.PO.LoginBack import LoginBack
-from Resources.PO.Mobile import Mobile
-from Resources.PO.MyWishlist import MyWishlist
-from Resources.PO.OrdersBack import OrdersBack
-from Resources.PO.ShareWishlist import ShareWishlist
-from Resources.PO.ThankYouPage import ThankYouPage
-from Resources.PO.Tv import Tv
-from Tests.BaseTest import BaseTest
-from Resources.TestData import TestData
 from Resources.Locators import Locators
+from Resources.PO.CustomersBack import CustomersBack
+from Resources.PO.LoginBack import LoginBack
+from Resources.PO.OrdersBack import OrdersBack
+from Resources.TestData import TestData
+from Tests.BaseTest import BaseTest
 
 
 class Test_10(BaseTest):

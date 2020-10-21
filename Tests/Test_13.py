@@ -1,14 +1,12 @@
+import time
+
 from Resources.Locators import Locators
 from Resources.PO.CustomersBack import CustomersBack
-from Resources.PO.EditReviewBack import EditReviewBack
 from Resources.PO.LoginBack import LoginBack
 from Resources.PO.SalesInvoiceBack import SalesInvoiceBack
-from Resources.PO.Mobile import Mobile
-from Resources.PO.PendingReviewsBack import PendingReviewsBack
-from Resources.PO.Review import Review
 from Resources.TestData import TestData
 from Tests.BaseTest import BaseTest
-import time
+
 
 class Test_13(BaseTest):
 
